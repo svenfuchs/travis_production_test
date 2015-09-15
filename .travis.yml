@@ -8,3 +8,6 @@ install:
 script:
   - git --version
 
+deploy:
+  provider: script
+  script: ./does/not/exist
