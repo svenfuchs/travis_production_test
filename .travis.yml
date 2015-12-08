@@ -4,8 +4,14 @@ sudo: false
 install:
   - true
 
-script:
-  - git --version
+env:
+  - BUILD=foo.sh
+  
+script: 
+  - $BUILD
+
+# script:
+#   - git --version
 
 # deploy:
 #   provider: script
