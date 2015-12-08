@@ -8,6 +8,7 @@ env:
   - BUILD=foo.sh
   
 script: 
+  - echo $BUILD
   - $BUILD
 
 # script:
