@@ -10,6 +10,7 @@ env:
 script: 
   - echo $BUILD
   - ./$BUILD
+  - bash -c $BUILD
 
 # script:
 #   - git --version
