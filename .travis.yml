@@ -9,7 +9,7 @@ env:
   
 script: 
   - echo $BUILD
-  - bash -c $BUILD
+  - "$BUILD"
 
 # script:
 #   - git --version
