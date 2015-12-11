@@ -6,6 +6,7 @@ install:
 
 env:
   - BUILD=foo.sh
+  - BUILD=bar.sh
   
 script: 
   - echo $BUILD
