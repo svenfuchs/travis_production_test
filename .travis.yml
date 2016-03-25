@@ -2,6 +2,9 @@ sudo: required
 language: elixir
 elixir: 1.2.2
 
+services:
+  - docker
+
 install: true
 script: true
 
